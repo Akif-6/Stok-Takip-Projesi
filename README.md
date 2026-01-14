@@ -133,6 +133,47 @@ erDiagram
         string departmankat
     }
   ```
+
+
+
+
+### 👤 Kullanıcı Senaryo Diyagramı (Use Case)
+Sistemdeki kullanıcıların (Aktörler) yapabildikleri işlemleri gösteren UML şeması:
+
+```mermaid
+usecaseDiagram
+    actor "Yönetici (Admin)" as Admin
+    actor "Satış Personeli" as Satis
+    actor "Depo Sorumlusu" as Depo
+
+    package "Stok Takip Sistemi" {
+        usecase "Sisteme Giriş Yap (Login)" as UC1
+        usecase "Satış İşlemi Yap" as UC2
+        usecase "Müşteri Ekle/Düzenle" as UC3
+        usecase "Ürün Ekle/Sil" as UC4
+        usecase "Stok Miktarını Güncelle" as UC5
+        usecase "Raporları ve Geçmişi Gör" as UC6
+        usecase "Kullanıcı ve Departman Yönetimi" as UC7
+    }
+
+    %% İlişkiler
+    Admin --> UC1
+    Admin --> UC2
+    Admin --> UC3
+    Admin --> UC4
+    Admin --> UC5
+    Admin --> UC6
+    Admin --> UC7
+
+    Satis --> UC1
+    Satis --> UC2
+    Satis --> UC3
+    Satis --> UC6
+
+    Depo --> UC1
+    Depo --> UC4
+    Depo --> UC5
+```
    </details>
 
 
