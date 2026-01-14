@@ -70,14 +70,6 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 
 </details>
 
-## ⚙️ Kurulum
-
-Projeyi kendi bilgisayarınızda çalıştırmak için:
-
-1. Projeyi klonlayın:
-   ```bash
-   git clone https://github.com/Akif-6/Stok-Takip-Projesi.git
-
 
 
 ## 🔄 Dinamik Veritabanı Yapısı (Multi-Database Support)
