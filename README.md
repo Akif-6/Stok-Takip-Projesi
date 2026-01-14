@@ -76,45 +76,64 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 <summary>Diyagramları ve Mimarisi Görüntülemek İçin Tıklayın 🔽</summary>
 
 ### 🗄️ Veritabanı İlişki Şeması (E-R Diyagramı)
-Bu şema, projedeki tabloların (Ürün, Müşteri, Satış) birbiriyle nasıl ilişkilendiğini gösterir:
+Bu şema, projedeki gerçek veritabanı tablolarının birebir yapısını gösterir:
 
 ```mermaid
 erDiagram
+    USERS ||--o{ SATISLAR : "Satis Yapar"
     MUSTERILER ||--o{ SATISLAR : "Satin Alir"
-    URUNLER ||--o{ SATISLAR : "Satilir"
-    KATEGORILER ||--o{ URUNLER : "Icinde Bulunur"
+    SATISLAR ||--o{ SATIS_DETAY : "Icerir"
+    URUNLER ||--o{ SATIS_DETAY : "Listelenir"
+
+    USERS {
+        int id PK
+        string username
+        string password
+        string role "Yonetici/Personel"
+    }
 
     MUSTERILER {
         int id PK
-        string ad_soyad
+        string ad
+        string soyad
+        string musteri_turu "Perakende/Toptan"
         string telefon
-        string tip "Perakende/Toptan"
+        string eposta
     }
 
     URUNLER {
         int id PK
-        string ad
-        float fiyat
-        int stok
-        int kategori_id FK
+        string urun_adi
+        int stok_miktari
+        decimal alis_fiyati
+        decimal satis_fiyati
+        int min_stok_seviyesi
     }
 
     SATISLAR {
         int id PK
         int musteri_id FK
+        int kullanici_id FK
+        datetime satis_tarihi
+        decimal toplam_tutar
+    }
+
+    SATIS_DETAY {
+        int id PK
+        int satis_id FK
         int urun_id FK
         int adet
-        date tarih
+        decimal birim_fiyat
     }
 
-    KATEGORILER {
-        int id PK
-        string ad
+    DEPARTMAN {
+        int departmanId PK
+        string departmanadi
+        string departmaniletisim
+        string departmankat
     }
-```
-</details>
-
-
+  ```
+   </details>
 
 
 ## 🔄 Dinamik Veritabanı Yapısı (Multi-Database Support)
