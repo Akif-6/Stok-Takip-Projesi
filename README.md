@@ -70,6 +70,48 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 
 </details>
 
+## 📐 Proje Mimarisi ve Diyagramlar
+
+<details>
+<summary>Diyagramları ve Mimarisi Görüntülemek İçin Tıklayın 🔽</summary>
+
+### 🗄️ Veritabanı İlişki Şeması (E-R Diyagramı)
+Bu şema, projedeki tabloların (Ürün, Müşteri, Satış) birbiriyle nasıl ilişkilendiğini gösterir:
+
+```mermaid
+erDiagram
+    MUSTERILER ||--o{ SATISLAR : "Satin Alir"
+    URUNLER ||--o{ SATISLAR : "Satilir"
+    KATEGORILER ||--o{ URUNLER : "Icinde Bulunur"
+
+    MUSTERILER {
+        int id PK
+        string ad_soyad
+        string telefon
+        string tip "Perakende/Toptan"
+    }
+
+    URUNLER {
+        int id PK
+        string ad
+        float fiyat
+        int stok
+        int kategori_id FK
+    }
+
+    SATISLAR {
+        int id PK
+        int musteri_id FK
+        int urun_id FK
+        int adet
+        date tarih
+    }
+
+    KATEGORILER {
+        int id PK
+        string ad
+    }
+
 
 
 ## 🔄 Dinamik Veritabanı Yapısı (Multi-Database Support)
