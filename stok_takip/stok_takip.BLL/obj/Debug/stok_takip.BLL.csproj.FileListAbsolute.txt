@@ -1,0 +1,82 @@
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.BLL.dll.config
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.BLL.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.BLL.pdb
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\Google.Protobuf.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\MySql.Data.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.DAL.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Buffers.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Memory.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\ZstdSharp.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.DAL.pdb
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.DAL.dll.config
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\Google.Protobuf.pdb
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\Google.Protobuf.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\MySql.Data.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Buffers.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Memory.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.csproj.AssemblyReference.cache
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\obj\Debug\stok_tak.DB201588.Up2Date
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.dll
+C:\Users\Akif\Desktop\nyp ders\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.pdb
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.BLL.dll.config
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.BLL.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.BLL.pdb
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\Google.Protobuf.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\MySql.Data.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.DAL.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Buffers.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Memory.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\ZstdSharp.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.DAL.pdb
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\stok_takip.DAL.dll.config
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\Google.Protobuf.pdb
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\Google.Protobuf.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\MySql.Data.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Buffers.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Memory.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.csproj.AssemblyReference.cache
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\obj\Debug\stok_tak.DB201588.Up2Date
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.dll
+C:\Users\Akif\OneDrive\Desktop\stok_takip\stok_takip.BLL\obj\Debug\stok_takip.BLL.pdb
