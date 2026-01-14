@@ -111,6 +111,9 @@ erDiagram
         int id PK
         string ad
     }
+```
+<details>
+
 
 
 
@@ -142,7 +145,7 @@ public class BaglantiYonetimi
     }
 }
 ```
-</details>
+
 
 
 ⚙️ Veritabanı Nasıl Değiştirilir?
