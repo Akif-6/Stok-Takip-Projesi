@@ -58,18 +58,15 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 
 | Giriş Ekranı | Ana Menü |
 | :---: | :---: |
-| ![Giriş](login.jpeg) | ![Ana Ekran](anasayfa.jpeg) |
+| ![Giriş](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/login.jpeg?raw=true) | ![Ana Ekran](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/anasayfa.jpeg?raw=true) |
 
 | Ürün Yönetimi | Müşteri Yönetimi |
 | :---: | :---: |
-| ![Ürünler](urun.jpeg) | ![Müşteriler](muster.jpeg) |
+| ![Ürünler](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/urun.jpeg?raw=true) | ![Müşteriler](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/muster.jpeg?raw=true) |
 
 | Satış Ekranı | Raporlar |
 | :---: | :---: |
-| ![Satış](satis.jpeg) | ![Raporlar](rapor.jpeg) |
-
-</details>
-
+| ![Satış](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/satis.jpeg?raw=true) | ![Raporlar](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/rapor.jpeg?raw=true) |
 
 </details>
 
