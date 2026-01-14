@@ -112,7 +112,7 @@ erDiagram
         string ad
     }
 ```
-
+</details>
 
 
 
