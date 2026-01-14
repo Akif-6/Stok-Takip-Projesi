@@ -142,6 +142,9 @@ public class BaglantiYonetimi
     }
 }
 ```
+</details>
+
+
 ⚙️ Veritabanı Nasıl Değiştirilir?
 Veritabanını değiştirmek için App.config dosyasındaki providerName kısmını güncellemeniz yeterlidir:
 ```
