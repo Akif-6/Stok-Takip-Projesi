@@ -58,15 +58,15 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 
 | Giriş Ekranı | Ana Menü |
 | :---: | :---: |
-| ![Giriş](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/login.jpeg?raw=true) | ![Ana Ekran](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/anasayfa.jpeg?raw=true) |
+| ![Giriş](https://github.com/Akif-6/Stok-Takip-Projesi/blob/master/login.jpeg?raw=true) | ![Ana Ekran](https://github.com/Akif-6/Stok-Takip-Projesi/blob/master/anasayfa.jpeg?raw=true) |
 
 | Ürün Yönetimi | Müşteri Yönetimi |
 | :---: | :---: |
-| ![Ürünler](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/urun.jpeg?raw=true) | ![Müşteriler](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/muster.jpeg?raw=true) |
+| ![Ürünler](https://github.com/Akif-6/Stok-Takip-Projesi/blob/master/urun.jpeg?raw=true) | ![Müşteriler](https://github.com/Akif-6/Stok-Takip-Projesi/blob/master/muster.jpeg?raw=true) |
 
 | Satış Ekranı | Raporlar |
 | :---: | :---: |
-| ![Satış](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/satis.jpeg?raw=true) | ![Raporlar](https://github.com/Akif-6/Stok-Takip-Projesi/blob/main/rapor.jpeg?raw=true) |
+| ![Satış](https://github.com/Akif-6/Stok-Takip-Projesi/blob/master/satis.jpeg?raw=true) | ![Raporlar](https://github.com/Akif-6/Stok-Takip-Projesi/blob/master/rapor.jpeg?raw=true) |
 
 </details>
 
