@@ -53,16 +53,22 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 
 ## 📷 Ekran Görüntüleri
 
-
 <details>
 <summary>Ekran Görüntülerini Görmek İçin Tıklayın</summary>
 
-![Giriş Ekranı](<img width="747" height="511" alt="image" src="https://github.com/user-attachments/assets/9effd4c0-c077-4be8-8138-e5b101b1a338" />)
-![Ana Ekran](<img width="747" height="511" alt="image" src="https://github.com/user-attachments/assets/71af7872-f2f6-421d-bb31-89867a388c73" />)
-![Ürün Yönetimi](<img width="986" height="451" alt="image" src="https://github.com/user-attachments/assets/c9d1ea6d-d73a-46d0-b80b-6773820fafc9" />)
-![Müşteri Yönetimi](<img width="742" height="444" alt="image" src="https://github.com/user-attachments/assets/5e691ae9-e2b1-4ab1-8d82-74dae567a5c6" />)
-![Satış Yap](<img width="752" height="453" alt="image" src="https://github.com/user-attachments/assets/dff08515-3054-413e-83f4-2ab351b0cf9f" />)
-![Raporlar](<img width="744" height="450" alt="image" src="https://github.com/user-attachments/assets/61c629e1-3772-409e-a202-ec9f8888f84b" />)
+| Giriş Ekranı | Ana Menü |
+| :---: | :---: |
+| ![Giriş](login.jpeg) | ![Ana Ekran](anasayfa.jpeg) |
+
+| Ürün Yönetimi | Müşteri Yönetimi |
+| :---: | :---: |
+| ![Ürünler](urun.jpeg) | ![Müşteriler](muster.jpeg) |
+
+| Satış Ekranı | Raporlar |
+| :---: | :---: |
+| ![Satış](satis.jpeg) | ![Raporlar](rapor.jpeg) |
+
+</details>
 
 
 </details>
