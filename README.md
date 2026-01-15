@@ -72,47 +72,65 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 
 ## 📐 Proje Mimarisi ve Diyagramlar
 
-<details>
-<summary>Diyagramları ve Mimarisi Görüntülemek İçin Tıklayın 🔽</summary>
+
 
 ### 🗄️ Veritabanı İlişki Şeması (E-R Diyagramı)
 Bu şema, projedeki gerçek veritabanı tablolarının birebir yapısını gösterir:
 
 ```mermaid
-classDiagram
-class USERS {
-+int id
-+string username
-+string password
-+string role
-}
-class MUSTERILER {
-+int id
-+string ad
-+string soyad
-+string telefon
-}
-class URUNLER {
-+int id
-+string urun_adi
-+int stok
-+decimal fiyat
-}
-class SATISLAR {
-+int id
-+datetime tarih
-+decimal toplam
-}
-class SATIS_DETAY {
-+int id
-+int adet
-+decimal birim_fiyat
-}
+erDiagram
+    USERS ||--o{ SATISLAR : "Satis Yapar"
+    MUSTERILER ||--o{ SATISLAR : "Satin Alir"
+    SATISLAR ||--o{ SATIS_DETAY : "Icerir"
+    URUNLER ||--o{ SATIS_DETAY : "Listelenir"
 
-USERS "1" --> "*" SATISLAR : Satis Yapar
-MUSTERILER "1" --> "*" SATISLAR : Satin Alir
-SATISLAR "1" *-- "*" SATIS_DETAY : Icerir
-URUNLER "1" --> "*" SATIS_DETAY : Listelenir
+    USERS {
+        int id PK
+        string username
+        string password
+        string role "Yonetici/Personel"
+    }
+
+    MUSTERILER {
+        int id PK
+        string ad
+        string soyad
+        string musteri_turu "Perakende/Toptan"
+        string telefon
+        string eposta
+    }
+
+    URUNLER {
+        int id PK
+        string urun_adi
+        int stok_miktari
+        decimal alis_fiyati
+        decimal satis_fiyati
+        int min_stok_seviyesi
+    }
+
+    SATISLAR {
+        int id PK
+        int musteri_id FK
+        int kullanici_id FK
+        datetime satis_tarihi
+        decimal toplam_tutar
+    }
+
+    SATIS_DETAY {
+        int id PK
+        int satis_id FK
+        int urun_id FK
+        int adet
+        decimal birim_fiyat
+    }
+
+    DEPARTMAN {
+        int departmanId PK
+        string departmanadi
+        string departmaniletisim
+        string departmankat
+    }
   ```
 
 
@@ -226,7 +244,7 @@ classDiagram
     SatisDAL ..> Veritabani : SQL Bağlantısı
     UrunDAL ..> Veritabani : SQL Bağlantısı
 ```
-   </details>
+  
 
 
 ## 🔄 Dinamik Veritabanı Yapısı (Multi-Database Support)
