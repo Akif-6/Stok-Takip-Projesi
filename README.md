@@ -53,8 +53,7 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 
 ## 📷 Ekran Görüntüleri
 
-<details>
-<summary>Ekran Görüntülerini Görmek İçin Tıklayın</summary>
+
 
 | Giriş Ekranı | Ana Menü |
 | :---: | :---: |
@@ -68,7 +67,7 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 | :---: | :---: |
 | ![Satış](resimler/satis.jpeg) | ![Raporlar](resimler/rapor.jpeg) |
 
-</details>
+
 
 ## 📐 Proje Mimarisi ve Diyagramlar
 
