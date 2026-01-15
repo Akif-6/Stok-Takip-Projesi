@@ -259,3 +259,9 @@ Projeyi hemen ayağa kaldırmak için şu adımları izleyin:
 4.  **Başlat:** Projeyi derleyin ve `Start` tuşuna basın. 🚀
 
 
+
+
+YOUTUBE
+https://www.youtube.com/watch?v=lr7GvzijD08
+
+
