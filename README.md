@@ -1,4 +1,4 @@
-# 📦 Stok Takip Otomasyonu (Stock Tracking Automation)
+# 📦 Stok Takip Otomasyonu 
 
 C# ve Windows Forms kullanılarak geliştirilmiş, N-Katmanlı Mimari (N-Tier Architecture) yapısına uygun bir stok takip uygulamasıdır. Bu proje ile ürün yönetimi, kategori işlemleri, müşteri takibi ve satış işlemleri kolayca yapılabilir.
 
