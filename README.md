@@ -46,7 +46,7 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
   - **DAL (Data Access Layer):** Veritabanı bağlantıları ve CRUD işlemleri.
   - **BLL (Business Logic Layer):** İş mantığı, validasyonlar ve kurallar.
   - **UI (User Interface):** Kullanıcı arayüzü formları.
-  - **DTO (Data Transfer Object):** Katmanlar arası veri taşıma modelleri.
+  - * **Entity (Varlıklar):** Veri taşıma işlemi ve veritabanı eşleşmesi bu sınıflar üzerinden yönetilir.
 
 
 
