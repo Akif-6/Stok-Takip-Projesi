@@ -2,7 +2,7 @@
 
 C# ve Windows Forms kullanılarak geliştirilmiş, N-Katmanlı Mimari (N-Tier Architecture) yapısına uygun bir stok takip uygulamasıdır. Bu proje ile ürün yönetimi, kategori işlemleri, müşteri takibi ve satış işlemleri kolayca yapılabilir.
 
-
+    
 ## 🚀 Proje Özellikleri
 
 Proje, farklı yetki seviyelerine sahip kullanıcıların (Admin, Satış Personeli, Depocu) kendi işlerini yürütebileceği kapsamlı bir otomasyon sistemidir.
@@ -79,59 +79,40 @@ Proje, sürdürülebilirlik ve temiz kod prensipleri gereği **Katmanlı Mimari 
 Bu şema, projedeki gerçek veritabanı tablolarının birebir yapısını gösterir:
 
 ```mermaid
-erDiagram
-    USERS ||--o{ SATISLAR : "Satis Yapar"
-    MUSTERILER ||--o{ SATISLAR : "Satin Alir"
-    SATISLAR ||--o{ SATIS_DETAY : "Icerir"
-    URUNLER ||--o{ SATIS_DETAY : "Listelenir"
+classDiagram
+class USERS {
++int id
++string username
++string password
++string role
+}
+class MUSTERILER {
++int id
++string ad
++string soyad
++string telefon
+}
+class URUNLER {
++int id
++string urun_adi
++int stok
++decimal fiyat
+}
+class SATISLAR {
++int id
++datetime tarih
++decimal toplam
+}
+class SATIS_DETAY {
++int id
++int adet
++decimal birim_fiyat
+}
 
-    USERS {
-        int id PK
-        string username
-        string password
-        string role "Yonetici/Personel"
-    }
-
-    MUSTERILER {
-        int id PK
-        string ad
-        string soyad
-        string musteri_turu "Perakende/Toptan"
-        string telefon
-        string eposta
-    }
-
-    URUNLER {
-        int id PK
-        string urun_adi
-        int stok_miktari
-        decimal alis_fiyati
-        decimal satis_fiyati
-        int min_stok_seviyesi
-    }
-
-    SATISLAR {
-        int id PK
-        int musteri_id FK
-        int kullanici_id FK
-        datetime satis_tarihi
-        decimal toplam_tutar
-    }
-
-    SATIS_DETAY {
-        int id PK
-        int satis_id FK
-        int urun_id FK
-        int adet
-        decimal birim_fiyat
-    }
-
-    DEPARTMAN {
-        int departmanId PK
-        string departmanadi
-        string departmaniletisim
-        string departmankat
-    }
+USERS "1" --> "*" SATISLAR : Satis Yapar
+MUSTERILER "1" --> "*" SATISLAR : Satin Alir
+SATISLAR "1" *-- "*" SATIS_DETAY : Icerir
+URUNLER "1" --> "*" SATIS_DETAY : Listelenir
   ```
 
 
@@ -142,24 +123,21 @@ Sistemdeki kullanıcıların (Aktörler) yapabildikleri işlemleri gösteren şe
 
 ```mermaid
 graph LR
-    %% Aktörler (Yuvarlak Başlıklar)
-    Admin((Yönetici))
-    Satis((Satış Prs.))
-    Depo((Depo Sor.))
+    %% Aktorler
+    Admin((Yonetici))
+    Satis((Satis Personeli))
+    Depo((Depo Sorumlusu))
 
-    %% Sistem Kapsamı
-    subgraph "Stok Takip Sistemi"
-        direction TB
-        UC1([Sisteme Giriş Yap])
-        UC2([Satış İşlemi Yap])
-        UC3([Müşteri Ekle/Düzenle])
-        UC4([Ürün Ekle/Sil])
-        UC5([Stok Güncelle])
-        UC6([Raporları Gör])
-        UC7([Kullanıcı/Departman Ynt.])
-    end
+    %% Islemler
+    UC1(Sisteme Giris Yap)
+    UC2(Satis Islemi Yap)
+    UC3(Musteri Ekle ve Duzenle)
+    UC4(Urun Ekle ve Sil)
+    UC5(Stok Guncelle)
+    UC6(Raporlari Gor)
+    UC7(Kullanici Yonetimi)
 
-    %% İlişkiler
+    %% Iliskiler
     Admin --> UC1
     Admin --> UC2
     Admin --> UC3
