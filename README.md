@@ -246,46 +246,7 @@ classDiagram
   
 
 
-## 🔄 Dinamik Veritabanı Yapısı (Multi-Database Support)
-
-Projemiz, veritabanı bağımlılığını ortadan kaldırmak için **Factory Design Pattern** ve `DbProviderFactories` yapısı kullanılarak geliştirilmiştir. 
-
-Bu sayede, kaynak kodlarda herhangi bir değişiklik yapmadan, sadece yapılandırma dosyasını (`App.config`) değiştirerek **SQL Server (SSMS), MySQL, Oracle veya Access** gibi farklı veritabanları arasında geçiş yapabilirsiniz.
-
-### 🛠️ Nasıl Çalışır?
-Proje, veritabanı sağlayıcısını (Provider) dinamik olarak algılar. İşte bu esnekliği sağlayan kod yapımız:
-
-```csharp
-public class BaglantiYonetimi
-{
-    // Bağlantı bilgisini ve sağlayıcıyı (Provider) App.config dosyasından okur
-    private static string BaglantiCumlesi = ConfigurationManager.ConnectionStrings["StokContext"].ConnectionString;
-    private static string SaglayiciAdi = ConfigurationManager.ConnectionStrings["StokContext"].ProviderName;
-
-    public static DbConnection BaglantiGetir()
-    {
-        // Provider'a göre (SqlClient, MySqlClient vb.) otomatik nesne oluşturur
-        var fabrika = DbProviderFactories.GetFactory(SaglayiciAdi);
-        
-        var baglanti = fabrika.CreateConnection();
-        baglanti.ConnectionString = BaglantiCumlesi;
-        
-        return baglanti;
-    }
-}
-```
-
-
-
-⚙️ Veritabanı Nasıl Değiştirilir?
-Veritabanını değiştirmek için App.config dosyasındaki providerName kısmını güncellemeniz yeterlidir:
-```
-<add name="StokContext" 
-     connectionString="Data Source=.;Initial Catalog=StokDB;Integrated Security=True" 
-     providerName="System.Data.SqlClient" />
-```
-
-## ⚡ Hızlı Kurulum (Quick Start)
+## ⚡ Kurulum
 
 Projeyi hemen ayağa kaldırmak için şu adımları izleyin:
 
