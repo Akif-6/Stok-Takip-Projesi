@@ -177,6 +177,77 @@ graph LR
     Depo --> UC4
     Depo --> UC5
 ```
+
+### 🧩 Sınıf Diyagramı ve Kod Mimarisi
+Proje, bağımlılıkları yönetmek için katmanlı yapı (UI, BLL, DAL) kullanır. Aşağıdaki şemada sınıflar arası ilişkiler ve **Repository Pattern** yapısı gösterilmektedir.
+
+```mermaid
+classDiagram
+    %% --- KATMANLAR (Packages) ---
+    namespace Presentation_UI {
+        class AnaForm {
+            +void MenuAc()
+        }
+        class SalesForm {
+            +void SatisYap_Click()
+        }
+        class ProductForm {
+            +void UrunEkle_Click()
+        }
+        class RaporForm
+    }
+
+    namespace Business_Logic_BLL {
+        class SatisBLL {
+            +bool SatisYap(Satis entity)
+            +bool StokKontrol(int id, int adet)
+        }
+        class UrunBLL {
+            +List Listele()
+            +bool Ekle(Urun entity)
+        }
+        class KullaniciBLL {
+            +User GirisYap(string kadi, string sifre)
+        }
+    }
+
+    namespace Data_Access_DAL {
+        class IRepository {
+            <<interface>>
+            +List Listele()
+            +bool Ekle(T entity)
+            +bool Sil(int id)
+            +bool Guncelle(T entity)
+        }
+        class SatisDAL
+        class UrunDAL
+        class KullaniciDAL
+        class Veritabani {
+            +SqlConnection Baglanti()
+        }
+    }
+
+    %% --- İLİŞKİLER ---
+    %% UI -> BLL Bağımlılığı
+    AnaForm ..> KullaniciBLL : Kullanır
+    SalesForm ..> SatisBLL : Kullanır
+    ProductForm ..> UrunBLL : Kullanır
+    RaporForm ..> SatisBLL : Kullanır
+
+    %% BLL -> DAL Bağımlılığı
+    SatisBLL --> SatisDAL : İşlemleri Yönlendirir
+    UrunBLL --> UrunDAL : İşlemleri Yönlendirir
+    KullaniciBLL --> KullaniciDAL : İşlemleri Yönlendirir
+
+    %% DAL -> Interface Uygulaması (Realization)
+    SatisDAL ..|> IRepository : Uygular
+    UrunDAL ..|> IRepository : Uygular
+    KullaniciDAL ..|> IRepository : Uygular
+
+    %% DAL -> Veritabanı Bağlantısı
+    SatisDAL ..> Veritabani : SQL Bağlantısı
+    UrunDAL ..> Veritabani : SQL Bağlantısı
+```
    </details>
 
 
