@@ -261,7 +261,9 @@ Projeyi hemen ayağa kaldırmak için şu adımları izleyin:
 
 
 
-YOUTUBE
-https://www.youtube.com/watch?v=lr7GvzijD08
+### 🎥 Proje  Videosu
 
+
+
+[![Stok Takip Projesi Video](https://img.youtube.com/vi/lr7GvzijD08/0.jpg)](https://www.youtube.com/watch?v=lr7GvzijD08)
 
